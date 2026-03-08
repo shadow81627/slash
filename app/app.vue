@@ -27,6 +27,7 @@ useSeoMeta({
 
 <template>
   <UApp>
+    <NuxtPwaAssets />
     <UHeader>
       <template #left>
         <NuxtLink to="/">
