@@ -4,15 +4,15 @@
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
 
-  --color-green-50: #EFFDF5;
-  --color-green-100: #D9FBE8;
-  --color-green-200: #B3F5D1;
-  --color-green-300: #75EDAE;
-  --color-green-400: #00DC82;
-  --color-green-500: #00C16A;
-  --color-green-600: #00A155;
-  --color-green-700: #007F45;
-  --color-green-800: #016538;
-  --color-green-900: #0A5331;
-  --color-green-950: #052E16;
+  --color-blue-50: #EBF0F4;
+  --color-blue-100: #D7E1E9;
+  --color-blue-200: #B0C4D3;
+  --color-blue-300: #89A6BD;
+  --color-blue-400: #6289A7;
+  --color-blue-500: #3B6B91;
+  --color-blue-600: #2C4762;
+  --color-blue-700: #213549;
+  --color-blue-800: #162330;
+  --color-blue-900: #0B1218;
+  --color-blue-950: #05090C;
 }
