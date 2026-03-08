@@ -50,6 +50,25 @@
       }]"
     />
 
+    <UPageSection
+      id="values"
+      title="Our Core Values"
+      description="Slash is built on a foundation of principles that honor creativity, community, and the individual."
+      :features="[{
+        icon: 'i-lucide-wand-2',
+        title: 'Unfiltered Creativity',
+        description: 'We believe in providing a space where you can be your authentic self. Archive, create, and share without limits.'
+      }, {
+        icon: 'i-lucide-heart-handshake',
+        title: 'Genuine Connection',
+        description: 'We\'re fostering a community built on shared interests and mutual respect, reminiscent of the golden age of blogging.'
+      }, {
+        icon: 'i-lucide-key-round',
+        title: 'Your Content, Your Rules',
+        description: 'You have ultimate control over your data. Your archive is your own, with powerful tools for privacy and sharing on your terms.'
+      }]"
+    />
+
     <UPageSection>
       <UPageCTA
         title="Ready to Start Your Archive?"
