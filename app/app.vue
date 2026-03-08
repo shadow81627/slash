@@ -11,16 +11,16 @@ useHead({
   }
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.'
+const title = 'Slash'
+const description = 'Your multi-media archive and social media companion, designed for the Tumblr community and beyond.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  // ogImage: 'https://example.com/slash-social-card.png',
+  // twitterImage: 'https://example.com/slash-social-card.png',
   twitterCard: 'summary_large_image'
 })
 </script>
@@ -59,7 +59,7 @@ useSeoMeta({
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+          Slash • Built with Nuxt UI • © {{ new Date().getFullYear() }}
         </p>
       </template>
 

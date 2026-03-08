@@ -1,19 +1,18 @@
 <template>
   <div>
     <UPageHero
-      title="Nuxt Starter Template"
-      description="A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours."
+      title="Welcome to Slash"
+      headline="Share your gay stuff with friends in one place"
+      description="Your multi-media archive and social media companion, designed for the Tumblr community and beyond. Rediscover your content, your way."
       :links="[{
-        label: 'Get started',
-        to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
-        target: '_blank',
+        label: 'Sign Up Now',
+        to: '/signup',
         trailingIcon: 'i-lucide-arrow-right',
         size: 'xl'
       }, {
-        label: 'Use this template',
-        to: 'https://github.com/nuxt-ui-templates/starter',
-        target: '_blank',
-        icon: 'i-simple-icons-github',
+        label: 'Learn More',
+        to: '/about',
+        icon: 'i-lucide-info',
         size: 'xl',
         color: 'neutral',
         variant: 'subtle'
@@ -22,51 +21,49 @@
 
     <UPageSection
       id="features"
-      title="Everything you need to build modern Nuxt apps"
-      description="Start with a solid foundation. This template includes all the essentials for building production-ready applications with Nuxt UI's powerful component system."
+      title="A New Home for Your Digital Life"
+      description="Slash provides the tools to not only save your favorite moments but to share and connect with a community that gets it."
       :features="[{
-        icon: 'i-lucide-rocket',
-        title: 'Production-ready from day one',
-        description: 'Pre-configured with TypeScript, ESLint, Tailwind CSS, and all the best practices. Focus on building features, not setting up tooling.'
+        icon: 'i-lucide-archive',
+        title: 'Archive Everything',
+        description: 'Effortlessly save and organize text, photos, videos, and audio from across the web into your personal, searchable archive.'
       }, {
-        icon: 'i-lucide-palette',
-        title: 'Beautiful by default',
-        description: 'Leveraging Nuxt UI\'s design system with automatic dark mode, consistent spacing, and polished components that look great out of the box.'
+        icon: 'i-lucide-users',
+        title: 'Social Connections',
+        description: 'Follow friends, reblog content, and engage in conversations. A social experience built with the spirit of classic Tumblr.'
       }, {
-        icon: 'i-lucide-zap',
-        title: 'Lightning fast',
-        description: 'Optimized for performance with SSR/SSG support, automatic code splitting, and edge-ready deployment. Your users will love the speed.'
+        icon: 'i-simple-icons-tumblr',
+        title: 'For the Tumblr Community',
+        description: 'Designed from the ground up with an interface and feature-set that will feel right at home for long-time Tumblr users.'
       }, {
-        icon: 'i-lucide-blocks',
-        title: '100+ components included',
-        description: 'Access Nuxt UI\'s comprehensive component library. From forms to navigation, everything is accessible, responsive, and customizable.'
+        icon: 'i-lucide-search',
+        title: 'Powerful Search & Discovery',
+        description: 'Instantly find anything in your archive with robust search and tagging. Discover new content from the community.'
       }, {
-        icon: 'i-lucide-code-2',
-        title: 'Developer experience first',
-        description: 'Auto-imports, hot module replacement, and TypeScript support. Write less boilerplate and ship more features.'
+        icon: 'i-lucide-paintbrush',
+        title: 'Your Personal Space',
+        description: 'Customize your profile and how you display your archived content. Make your corner of Slash uniquely yours.'
       }, {
-        icon: 'i-lucide-shield-check',
-        title: 'Built for scale',
-        description: 'Enterprise-ready architecture with proper error handling, SEO optimization, and security best practices built-in.'
+        icon: 'i-lucide-lock',
+        title: 'Private & Secure',
+        description: 'You control what you share. Keep your archive private, share with a select few, or make it public for everyone to see.'
       }]"
     />
 
     <UPageSection>
       <UPageCTA
-        title="Ready to build your next Nuxt app?"
-        description="Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today."
+        title="Ready to Start Your Archive?"
+        description="Join Slash today and begin building your personal multimedia library and connecting with the community."
         variant="subtle"
         :links="[{
-          label: 'Start building',
-          to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
-          target: '_blank',
+          label: 'Create an Account',
+          to: '/signup',
           trailingIcon: 'i-lucide-arrow-right',
           color: 'neutral'
         }, {
-          label: 'View on GitHub',
-          to: 'https://github.com/nuxt-ui-templates/starter',
-          target: '_blank',
-          icon: 'i-simple-icons-github',
+          label: 'Follow our Blog',
+          to: '/blog',
+          icon: 'i-lucide-rss',
           color: 'neutral',
           variant: 'outline'
         }]"
