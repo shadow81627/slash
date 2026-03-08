@@ -38,7 +38,7 @@ useSeoMeta({
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
+          to="https://github.com/shadow81627/slash"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -57,13 +57,13 @@ useSeoMeta({
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          Slash • Built with Nuxt UI • © {{ new Date().getFullYear() }}
+          <NuxtLink href="https://daim.dev">Daim Digital</NuxtLink> • Built with Autism • © {{ new Date().getFullYear() }}
         </p>
       </template>
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
+          to="https://github.com/shadow81627/slash"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
