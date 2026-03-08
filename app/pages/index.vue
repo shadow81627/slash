@@ -10,7 +10,7 @@
         trailingIcon: 'i-lucide-arrow-right',
         size: 'xl'
       }, {
-        label: 'Learn More',
+        label: 'About',
         to: '/about',
         icon: 'i-lucide-info',
         size: 'xl',
