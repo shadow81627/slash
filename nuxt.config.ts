@@ -11,14 +11,13 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@bubblesortt/nuxt-es-toolkit',
     '@nuxthub/core',
-    '@nuxtjs/eslint-module',
     '@nuxtjs/seo',
     '@vite-pwa/nuxt',
     '@vueuse/nuxt'
   ],
 
   devtools: {
-    enabled: true
+    enabled: false
   },
 
   css: ['~/assets/css/main.css'],
@@ -28,6 +27,10 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-01-15',
+
+  hub: {
+    db: 'sqlite'
+  },
 
   eslint: {
     config: {
