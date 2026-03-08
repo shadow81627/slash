@@ -30,8 +30,12 @@ useSeoMeta({
     <NuxtPwaAssets />
     <UHeader>
       <template #left>
-        <NuxtLink to="/">
+        <NuxtLink
+          to="/"
+          class="flex gap-1"
+        >
           <AppLogo class="w-auto h-6 shrink-0" />
+          <div>Slash</div>
         </NuxtLink>
       </template>
 

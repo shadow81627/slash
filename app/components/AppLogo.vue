@@ -1,18 +1,23 @@
 <template>
   <svg
-    viewBox="0 0 450 100"
+    width="512"
+    height="512"
+    viewBox="0 0 512 512"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <text
-      x="0"
-      y="75"
-      font-family="Public Sans, sans-serif"
-      font-size="80"
-      font-weight="bold"
-      fill="var(--ui-primary)"
-    >
-      Slash
-    </text>
+    <rect
+      width="512"
+      height="512"
+      rx="72"
+      fill="#111827"
+    />
+    <path
+      d="M170.667 405.333L341.333 106.667"
+      stroke="#4F46E5"
+      stroke-width="48"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
   </svg>
 </template>
